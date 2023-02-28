@@ -7,4 +7,4 @@ Landing page created as an group exercise for a school project at <a href="https
 <a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript" target="_blank" rel="noopener noreferrer">![Javascript](https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black)</a>
 
 ## Preview screenshot
-![To be added.]()
+![Ops! Something went wrong.](https://github.com/amariliodeoliveira/landing-page-dc/blob/main/src/assets/img/preview/hero.jpg)
