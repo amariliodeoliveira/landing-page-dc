@@ -4,14 +4,16 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Document</title>
+    <title>Besnik | Digital College - Landing Page</title>
 
     <!-- Links -->
     <link href="/dist/output.css" rel="stylesheet" />
   </head>
 
-  <body class="bg-gradient-to-t from-violet-700 to-purple-600 text-white overflow-x-hidden">
-    <header>
+  <body class="bg-gradient-to-t from-violet-700 to-purple-600 overflow-x-hidden">
+    
+    <!-- Header -->
+    <header class="text-white">
       <nav
         class="flex flex-wrap w-screen justify-between items-center top-0 left-0 py-10 px-32"
       >
@@ -55,8 +57,10 @@
       </nav>
     </header>
 
+    <!-- Main -->
     <main class="w-full">
-      <div class="">
+      <div class="text-white">
+
         <!-- Hero Section -->
         <section class="flex px-32 pt-11">
           <div class="flex flex-wrap w-6/12 gap-8">
@@ -78,7 +82,7 @@
                 alt=""
               />
               <input
-                class="grow-[2] border-none focus:outline-none placeholder:font-medium"
+                class="grow-[2] border-none focus:outline-none placeholder:font-medium text-slate-900"
                 type="email"
                 placeholder="Enter your email address..."
               />
@@ -121,7 +125,9 @@
         <img class="w-full" src="./src/assets/img/topDivisory.png" />
       </div>
 
-      <section class="flex h-screen px-32 pt-11 bg-white text-slate-900 decoration-slate-900">
+      <section
+        class="flex items-center gap-12 h-screen px-32 pt-11 bg-white text-slate-900 decoration-slate-900"
+      >
         <div class="">
           <img src="./src/assets/img/featureSideBanner.jpg" />
         </div>
@@ -150,6 +156,117 @@
           <button>Read more</button>
         </div>
       </section>
+
+      <div>
+        <img class="w-full" src="./src/assets/img/bottomDivisory.png" />
+      </div>
+
+      <!-- Service Section  -->
+      <section class="w-screen h-screen flex flex-col justify-evenly items-center px-48">
+        <div class="flex flex-row">
+          <h2 class="text-white text-5xl block">Our best service</h2>
+        </div>
+
+        <div class="grid grid-cols-3 gap-10">
+          <div
+            class="flex flex-col items-center justify-evenly bg-white min-w-72 max-w-xs py-4 -skew-y-6 div"
+          >
+            <img
+              src="./src/assets/img/icons/verified-user.png"
+              alt="icon-verified"
+              class="bg-slate-200 p-2 rounded-full"
+            />
+            <h3 class="text-slate-900 text-center font-bold pb-2">
+              Verify your identity
+            </h3>
+            <p class="text-sm text-gray-400 text-center">
+              Lorem, ipsum dolor sit amet consectetur adipisicing elit.
+              Reprehenderit.
+            </p>
+          </div>
+          <div
+            class="flex flex-col items-center justify-evenly bg-white min-w-72 max-w-xs py-4 -skew-y-6"
+          >
+            <img
+              src="./src/assets/img/icons/register.png"
+              alt="icon-register"
+              class="bg-slate-200 p-2 rounded-full"
+            />
+            <h3 class="text-slate-900 text-center font-bold pb-2">
+              Register for free
+            </h3>
+            <p class="text-sm text-gray-400 text-center">
+              Lorem, ipsum dolor sit amet consectetur adipisicing elit.
+              Reprehenderit.
+            </p>
+          </div>
+          <div
+            class="flex flex-col items-center justify-evenly bg-white min-w-72 max-w-xs py-4 -skew-y-6"
+          >
+            <img
+              src="./src/assets/img/icons/suport.png"
+              alt="icon-support"
+              class="bg-slate-200 p-2 rounded-full"
+            />
+            <h3 class="text-slate-900 text-center font-bold pb-2">
+              All time suport
+            </h3>
+            <p class="text-sm text-gray-400 text-center">
+              Lorem, ipsum dolor sit amet consectetur adipisicing elit.
+              Reprehenderit.
+            </p>
+          </div>
+          <div
+            class="flex flex-col items-center justify-evenly bg-white min-w-72 max-w-xs py-4 -skew-y-6"
+          >
+            <img
+              src="./src/assets/img/icons/pay.png"
+              alt="icon-pay"
+              class="bg-slate-200 p-2 rounded-full"
+            />
+            <h3 class="text-slate-900 text-center font-bold pb-2">
+              Pay for your transfer
+            </h3>
+            <p class="text-sm text-gray-400 text-center">
+              Lorem, ipsum dolor sit amet consectetur adipisicing elit.
+              Reprehenderit.
+            </p>
+          </div>
+          <div
+            class="flex flex-col items-center justify-evenly bg-white min-w-72 max-w-xs py-4 -skew-y-6"
+          >
+            <img
+              src="./src/assets/img/icons/handshaking.png"
+              alt="icon-handshaking"
+              class="bg-slate-200 p-2 rounded-full"
+            />
+            <h3 class="text-slate-900 text-center font-bold pb-2">
+              Expertise built
+            </h3>
+            <p class="text-sm text-gray-400 text-center">
+              Lorem, ipsum dolor sit amet consectetur adipisicing elit.
+              Reprehenderit.
+            </p>
+          </div>
+          <div
+            class="flex flex-col items-center justify-evenly bg-white min-w-72 max-w-xs py-4 -skew-y-6"
+          >
+            <img
+              src="./src/assets/img/icons/safest.png"
+              alt="icon-money"
+              class="bg-slate-200 p-2 rounded-full"
+            />
+            <h3 class="text-slate-900 text-center font-bold pb-2">
+              Safest tansection
+            </h3>
+            <p class="text-sm text-gray-400 text-center">
+              Lorem, ipsum dolor sit amet consectetur adipisicing elit.
+              Reprehenderit.
+            </p>
+          </div>
+        </div>
+      </section>
+
     </main>
   </body>
 </html>
