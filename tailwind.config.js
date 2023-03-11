@@ -2,8 +2,14 @@
 module.exports = {
   content: ["./src/**/*.{html,js}"],
   theme: {
-    extend: {},
+    extend: {
+      width: {
+        85: "85%",
+        65: "65%",
+      },
+    },
   },
   plugins: [],
-  safelist:[{ pattern:/^(.*?)/}],
+
+  safelist: [{ pattern: /^(.*?)/ }],
 };
