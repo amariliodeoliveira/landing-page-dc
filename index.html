@@ -13,14 +13,19 @@
 </head>
 
 <body class="bg-gradient-to-t from-violet-700 to-purple-600 overflow-x-hidden">
-  <!-- Header -->
+
   <header class="text-white">
+
+    <!-- Navbar -->
     <nav class="flex flex-wrap w-screen justify-between items-center top-0 left-0 py-10 px-32">
+
+      <!-- Logo Left -->
       <a href="#" class="flex gap-3">
         <img src="./src/assets/img/logo.png" class="contain w-7" />
         <p class="text-2xl font-serif italic">Besnik</p>
       </a>
 
+      <!-- Menu List -->
       <ul class="flex gap-12">
         <li>
           <a href="#" class="flex items-center text-center py-2">Home</a>
@@ -34,14 +39,19 @@
         <li>
           <a href="#aboutUs" class="flex items-center font-semibold text-center py-2">About Us</a>
         </li>
-        <li><button class="font-semibold pl-8 py-2">Login</button></li>
-        <li>
-          <button class="bg-white text-purple-900 font-semibold px-8 py-2">
-            Sign Up
-          </button>
-        </li>
+
+        <!-- Login Buttons -->
+        <div class="flex gap-12">
+          <li><button class="font-semibold pl-8 py-2">Login</button></li>
+          <li>
+            <button class="bg-white text-purple-900 font-semibold px-8 py-2">
+              Sign Up
+            </button>
+          </li>
+        </div>
       </ul>
     </nav>
+
   </header>
 
   <!-- Main -->
@@ -95,12 +105,10 @@
       </section>
     </div>
 
-    <!-- Feature Section  -->
+    <!-- Feature Section 1 -->
     <div>
       <img class="w-full" src="./src/assets/img/topDivisory.png" />
     </div>
-
-    <!-- Feature 1 -->
     <section id="feature"
       class="flex items-center gap-24 h-screen px-32 pt-11 bg-white text-slate-900 decoration-slate-900">
       <div class="flex items-center w-6/12 h-full">
@@ -134,7 +142,7 @@
       </div>
     </section>
 
-    <!-- Feature 2 -->
+    <!-- Feature Section 2 -->
     <section class="flex items-center h-screen gap-14 px-32 py-24 bg-white text-slate-900 decoration-slate-900">
       <div class="flex flex-col items-start w-3/6 gap-12">
         <h2 class="text-5xl font-semibold">
@@ -156,7 +164,6 @@
         <img class="object-cover col-span-2 w-full h-full" src="./src/assets/img/feature3.jpg" alt="" />
       </div>
     </section>
-
     <div>
       <img class="w-full" src="./src/assets/img/bottomDivisory.png" />
     </div>
@@ -268,7 +275,6 @@
     <div>
       <img class="w-full" src="src/assets/img/topDivisory.png" alt="" />
     </div>
-
     <section id="aboutUs" class="flex flex-col items-center px-32 py-24 bg-white text-slate-900 decoration-slate-900">
       <div class="flex flex-col items-center">
         <h2 class="text-5xl font-semibold">Our beloved customer</h2>
@@ -309,8 +315,10 @@
     </section>
   </main>
 
-  <footer>
-    <section class="bg-white px-32 py-10 flex flex-col">
+  <footer class="bg-white px-32 py-10 flex flex-col">
+
+    <!-- News Section -->
+    <section>
       <div class="flex items-center px-16 py-24 gap-12 bg-gradient-to-t from-violet-700 to-purple-600">
         <div class="w-7/12">
           <h3 class="text-white text-5xl font-semibold mb-8">
@@ -331,6 +339,10 @@
           </button>
         </form>
       </div>
+    </section>
+
+    <!-- Copyrights Section -->
+    <section>
       <div class="flex justify-between text-xs text-slate-400 font-semibold mt-14">
         <p class="font-semibold">&copy Besnik 2021. All rigths reserved</p>
         <p class="font-semibold">Made From Bangladesh</p>
